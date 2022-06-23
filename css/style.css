@@ -1,0 +1,17 @@
+header{
+    background-color: antiquewhite;
+}
+div.container{
+    display: flex;
+}
+nav{
+    background-color:aqua;
+    width: 10%;
+}
+main{
+    background-color: aquamarine;
+    width: 90%;
+}
+footer{
+    background-color: blue;
+}
