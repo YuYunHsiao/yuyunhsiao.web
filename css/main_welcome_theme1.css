@@ -1,0 +1,17 @@
+.main_welcome_left{
+    width: 50%;
+}
+.main_photo{
+    width: 50%;
+    float: right;
+}
+.btn_contact{
+    border-radius: 12px;
+    background-color: brown;
+}
+.main_welcome_right{
+    width: 50%;
+}
+.main_intrdution{
+    line-height: 25px;
+}

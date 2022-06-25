@@ -1,0 +1,16 @@
+header{
+    background-color: white;
+    height: 50px;
+}
+main{
+    background-color: aquamarine;
+    display: flex;
+    margin: 50px auto auto auto;
+}
+footer{
+    background-color: white;
+    height: 50px;
+    /*要求
+    區塊靠下對齊
+    */
+}
