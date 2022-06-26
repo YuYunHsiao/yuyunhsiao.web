@@ -1,0 +1,27 @@
+.header{
+    background-color: aqua;
+    display: flex;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+#nav_about_me{
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: #DF7861;
+    color: white;
+}
+#main{
+    width: 70%;
+    display: flex;
+    margin: 10px auto;
+    background-color: yellowgreen;
+}
+.footer{
+    height: 50px;
+    width: 70%;
+    margin: auto;
+    background-color: aquamarine;
+}

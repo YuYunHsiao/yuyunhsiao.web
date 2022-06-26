@@ -1,3 +1,11 @@
+$('#nav_about_me').click(function(){
+    let v = $('#nav_about_me').val();
+    if(v=="about_me"){
+        $.get("main_welcome_theme1.html",function(data){
+            $("#main").html(data);
+        });
+    }
+})
 $('#btn_resume').click(function(){
     let v = $('#btn_resume').val();
     if(v=="RESUME"){

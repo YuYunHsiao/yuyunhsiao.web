@@ -1,16 +1,52 @@
-.main_welcome_left{
-    width: 50%;
+.main_welcome_left{  
+    background-color: white;
+    height: 450px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0px;
+    box-shadow:-5px 5px 10px black;
+    text-align: center;
+}
+.main_welcome_left_top{
+    background-color: #F4BFBF;
+    height: 85%;
 }
 .main_photo{
-    width: 50%;
-    float: right;
+    width: 30%;
+    border-radius: 50%;
+    margin: 10px 20px;
 }
-.btn_contact{
-    border-radius: 12px;
-    background-color: brown;
+.main_welcome_left_bottom{
+    height: 15%;
+    transform: translateY(3px);
+}
+.img_connect{
+    height: 50px;
+    padding: 0px 5px 0px 5px;
 }
 .main_welcome_right{
     width: 50%;
+    background-color: #8cc0de;
+    margin-right: 0px;
+}
+.main_greet{
+    background-color: white;
+}
+#btn_resume{
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: #DF7861;
+    color: white;
+}
+#btn_projects{
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: #DF7861;
+    color: white;
 }
 .main_intrdution{
     line-height: 25px;

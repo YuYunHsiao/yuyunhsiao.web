@@ -1,0 +1,10 @@
+.main_projects{
+    flex-direction: column;
+    margin: auto;
+}
+.main_projects1{
+    background-color: aqua;
+}
+.main_projects2{
+    background-color: aquamarine;
+}
