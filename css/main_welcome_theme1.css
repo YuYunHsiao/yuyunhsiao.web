@@ -12,13 +12,16 @@
     height: 85%;
 }
 .main_photo{
-    width: 30%;
+    width: 50%;
     border-radius: 50%;
-    margin: 10px 20px;
+    margin-top: 10px;
+}
+.main_target{
+    font-size: 20px;
 }
 .main_welcome_left_bottom{
     height: 15%;
-    transform: translateY(3px);
+    transform: translateY(10px);
 }
 .img_connect{
     height: 50px;
@@ -26,28 +29,27 @@
 }
 .main_welcome_right{
     width: 50%;
-    background-color: #8cc0de;
+    background-color: #8CC0DE;
     margin-right: 0px;
 }
 .main_greet{
     background-color: white;
+    margin: 15px auto;
 }
-#btn_resume{
+.main_welcome_right_btn{
     height: 30px;
     width: 100px;
-    border-radius: 12px;
+    border-radius: 10px;
+    border-color: transparent;
     font-size: 15px;
     background-color: #DF7861;
     color: white;
+    font-family: 'Merriweather';
+    transform: translateX(15px);
 }
-#btn_projects{
-    height: 30px;
-    width: 100px;
-    border-radius: 12px;
-    font-size: 15px;
-    background-color: #DF7861;
-    color: white;
-}
-.main_intrdution{
-    line-height: 25px;
+.main_welcome_right_btn:hover{
+    border-color: black;
+    background-color: white;
+    color: #DF7861;
+    font-weight: bold;
 }

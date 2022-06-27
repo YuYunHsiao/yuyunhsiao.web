@@ -1,13 +1,17 @@
 .main_resume{
     flex-direction: column;
     margin: auto;
+    width: 100%;
 }
 .main_resume_education{
-    background-color: aqua;
+    background-color: #FDF6EC;
+    box-shadow:5px 5px 0px gray;
 }
 .main_resume_experience{
-    background-color: aquamarine;
+    background-color: #F3E9DD;
+    box-shadow:5px 5px 0px gray;
 }
 .main_resume_skill{
-    background-color: blue;
+    background-color: #FDF6EC;
+    box-shadow:5px 5px 0px gray;
 }

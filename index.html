@@ -5,14 +5,17 @@
         <title>YuYun's blog</title>
         <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css" rel="stylesheet">
-
         <link href="css/common.css" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
     </head>
     <body>
         <div class="header">
             <h1>YuYun's blog</h1>
-            <input id="nav_about_me" type="button" value="about_me" onclick="change_main()"></input>
+            <div class="nav">
+                <input id="nav_about_me" class="nav_btn" type="button" value="about_me" onclick="change_main()"></input>
+                <input id="nav_resume" class="nav_btn" type="button" value="resume" onclick="change_main()"></input>
+                <input id="nav_projects" class="nav_btn" type="button" value="projects" onclick="change_main()"></input>
+            </div>
         </div>
         <div id="main">
             <!--內容採用JQuery方法匯入，位置於js/import_main.js-->
